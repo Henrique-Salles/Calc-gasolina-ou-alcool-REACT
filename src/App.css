@@ -42,3 +42,33 @@
   font-size: 22px;
   font-weight: bold;
 }
+
+.result {
+  background-color: #00b63e;
+  color: #fff;
+  width: 100%;
+  max-width: 420px;
+  padding: 20px 28px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 24px;
+  transition: transform 0.8s;
+}
+
+.result:hover {
+  transform: scale(1.1);
+}
+
+.result_title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.result span {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
